@@ -1,4 +1,6 @@
-% InClass1: some simple excerises to get started with MATLAB. Please complete by
+%AW: Looks good. see 1 comment below. 0.95/1.
+
+%InClass1: some simple excerises to get started with MATLAB. Please complete by
 % the second class. Answer questions in comments and return assignment via
 % github
 %% numbers vs strings
@@ -73,6 +75,11 @@ oneToTen = 1:10;
 % 1. even numbers from two to twenty
 %oneToTenEven=[oneToTen*2]
 %oneToTenEven-2={2,4,6,8,10,12,14,16,18,20]
+
+%AW: You can't name a variable 'oneToTenEven-2' as it interprets this as a minus sign. Also,
+% a concise definition for the second part would be 2:2:20. yours works but spells it out explicitly.
+%finally, it is a cell array. use [] brackets to get a regular array. -0.05. 
+
 % 2. odd numbers from one to nineteen
 %oneToTenOdd=[(oneToTen*2)-1]
 %oneToTenOdd-2={1,3,5,7,9,11,13,15,17,19]
